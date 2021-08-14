@@ -1,0 +1,107 @@
+body {
+	background: #9ddcdc;
+}
+
+.top,
+h4 {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+}
+form {
+	margin: 0 auto;
+	display: inline-block;
+}
+.button1 {
+	background: #e95280;
+	color: white;
+	margin: 20px;
+}
+.weather-app {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 5px 25px;
+	background: linear-gradient(
+		178.6deg,
+		rgb(232, 245, 253) 3.3%,
+		rgb(252, 253, 255) 109.6%
+	);
+	max-width: 500px;
+}
+.main {
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	left: 10px;
+}
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: blueviolet;
+}
+h3 {
+	font-size: 16px;
+	margin-left: 15px;
+}
+.mark {
+	font-size: 50px;
+	background: transparent;
+}
+.temperature {
+	font-size: 30px;
+}
+.switch {
+	font-size: 5px;
+	border: 2px solid #ff3366;
+	border-radius: 30px;
+	padding: 5px 10px;
+}
+.list {
+	position: fixed;
+	right: 40px;
+	top: 50px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+ul {
+	list-style: none;
+	position: fixed;
+	right: 15px;
+	top: 80px;
+	border: 2px solid #ffad35;
+	padding-left: 10px;
+	padding-bottom: 100px;
+	line-height: 2;
+	background: white;
+}
+li {
+	color: #ffad35;
+}
+
+.adding {
+	color: navy;
+}
+.box {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	border: 2px solid #e67a7a;
+	border-radius: 30px;
+	color: #d45079;
+	background: linear-gradient(
+		178.6deg,
+		rgb(232, 245, 253) 3.3%,
+		rgb(252, 253, 255) 109.6%
+	);
+}
+.boxContainer {
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+}
+.temperature2 {
+	text-align: center;
+	font-size: small;
+}

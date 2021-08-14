@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+    <form class="search-form" id="search-form">
+       <input
+        type="search"
+        placeholder="Check your location" 
+        autofocus="on"
+        autocomplete="off"
+        id="city-input"
+         />
+        <input
+        type="submit" value="Search🔍" />
+    </form>
+    <button class="button1" id="b1">Current📍</button>
+    </div>
+      <div class="weather-app">
+    <p class="main">
+     <h2 id="city">
+       Tokyo, Japan
+    </h2>
+     <div id="date"></div>
+     <span class="mark">⛅</span>
+     <span class="temperature" id="temp">26°C</span>
+     <button class="switch">°C / °F</button>
+     <h3 id="status">Cloudy</h3>
+    </p>
+    </div>
+
+    <h4>Forecast for next 5 days...</h4>
+			<div class="boxContainer">
+				<div class="box">Mon
+          <div>☀</div>
+          <p class="temperature2">30°C/22°C</p>
+				</div>
+        <div class="box">Tue
+          <div>☀</div>
+          <p class="temperature2">28°C/21°C</p>
+				</div>
+				<div class="box">Wed
+          <div>🌧</div>
+          <p class="temperature2">24°C/21°C</p>
+				</div>
+				<div class="box">Thu
+          <div>🌩</div>
+          <p class="temperature2">24°C/20°C</p>
+				</div>
+				<div class="box">Fri
+          <div>☁</div>
+          <p class="temperature2">25°C/18°C</p>
+				</div>
+			</div>
+    <div class="list">📌Your list
+    <ul class="cities">
+      <li>NewYork</li>
+      <li>Toronto</li>
+      <li>London</li>
+      <li>Sydney</li>
+      <li>Dubai</li>
+      <div class="adding">...add new city</div>
+    </ul>
+  </div>
+
+  </div>
+<script src="src/index.js"></script>
+</body>
+</html>
